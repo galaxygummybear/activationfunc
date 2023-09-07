@@ -40,7 +40,8 @@ def softmax(x):
 def softplus(x):
     return ivy.to_numpy(ivy.softplus(x))
 
-#Softsign Activation Function
+# Softsign Activation Function
+## Recently Added to IVY
 def softsign(x):
     return ivy.to_numpy(ivy.softsign(x))
 
